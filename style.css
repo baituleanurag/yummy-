@@ -1,0 +1,661 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    background-color:rgb(254, 254, 254);
+    padding: 20px 104.5px;
+    margin:0 auto;
+    position:fixed;
+    top:0;
+    width:90%;
+    z-index: 1;
+}
+.list{
+    display:flex;
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+li{
+    padding:10px 0 10px 28px;
+}
+.home{
+    text-decoration: underline 3px #ce1212;
+}
+h1 span{
+    color:#ce1212;
+}
+.btn{
+    background-color:#ce1212 ;
+    padding:10px 20px;
+    border:none;
+    color:white;
+    border-radius: 50px;
+}
+
+
+.container{
+    background-color: #eeeeee;
+    width:100%;
+    /* display:flex;
+    justify-content: space-between; */
+    /* padding:0 104.5px; */
+}
+.box{
+    display:flex;
+    justify-content: space-between;
+    width:1140px;
+    margin:0 auto;
+}
+.content{
+    width:451px;
+}
+h2{
+    font-family: "Amatic SC";
+    font-size: 69px;
+    margin-bottom: 20px;
+    padding-top: 143px;
+}
+p{
+    font-family: "Open Sans";
+    margin-bottom: 30px;
+}
+img{
+    width:451px;
+   padding:100px 0;
+}
+
+.btn1{
+    padding:12px 36px;
+    background-color:#ce1212;
+    color:white;
+    border-radius: 50px;
+    border:none;
+}
+.btn2{
+   font-size: 16px;
+   font-weight: 500;
+   border:none;
+   margin-left:25px;
+}
+.btn2 i{
+    color:#ce1212;
+    font-size: 30px;
+    
+}
+.aboutUs{
+    text-align: center;
+    padding:80px 0 30px 0;
+    margin:0px;
+}
+.aboutUs h2{
+    padding-top: 0px;
+    font-weight: 400;
+    font-size: 47px;
+}
+ul{
+    list-style:none;
+}
+.aboutInfo ul li{
+    padding: 10px 0 10px 0px;
+}
+li i{
+    padding-right:5px;
+}
+.aboutUs h2 span{
+    color:#ce1212;
+    
+}
+.about{
+    display:flex;
+    /* justify-content: space-between; */
+    /* margin-right: auto;
+    margin-left: auto; */
+    width:1140px;
+    margin:0 auto;
+}
+.aboutimg{
+    width:665px;
+    height:766px;
+    padding-top: 0px;
+    /* margin-left:auto; */
+}
+.aboutInfo{
+    width:451px;
+    padding-left: 68px;
+}
+
+.cardParent{
+    
+    background-color: #eeeeee;
+}
+.cards{
+    display:flex;
+    width:1140px;
+    margin:0 auto;
+    padding:80px 0;
+    gap:25px;
+   
+}
+.cardRed{
+    background-color:#ce1212;
+    color:white;
+    width:296px;
+    padding:30px;
+  
+}
+.cardRed h3{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.cardRed p{
+    margin-bottom: 30px;
+}
+.cardRed button{
+    padding:10px 30px;
+    border-radius:50px;
+    border:none;
+    color:white;
+    background-color: #d46767;
+    margin:0 20%;
+}
+.commonwhitecards{
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+.card{
+    background-color: white;
+    width:167px;
+    padding:40px 30px;
+    text-align:center;
+    align-items: center;
+    height:300px;
+}
+.card i{
+    background-color: #fae7e7;
+    border-radius: 50px;
+    padding:20px;
+    color:#ce1212;
+    font-size: 30px;
+    margin-bottom: 30px;
+}  
+.card h3{
+    font-size: 20px;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+.card p{
+    margin:30px 0;
+}
+/* transp background */
+.transpbackground{
+    background-image: url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/stats-bg.jpg);
+    height:356px;
+    background-attachment: fixed;
+    
+}
+.transpbacknos{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+.transpbacknos p{
+    font-size: 48px;
+    /* display: block; */
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+.transpbacknos .transpbacknospara{
+    font-size: 16px;
+}
+/* menu */
+.ourmenup p{
+    color:rgb(168, 168, 168);
+    margin-bottom: 0px;
+    padding-top: 80px;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.ourmenup h3{
+    font-family: "Amatic SC";
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+.ourmenup h3 span{
+    color:#ce1212;
+}
+.menutypes{
+    display:flex;
+    justify-content: center;
+}
+.menutypes p{
+    margin: 0 10px;
+    padding: 10px 5px;
+    border-bottom: 2px solid rgb(190, 185, 185);
+}
+.menuname{
+    padding:30px;
+}
+.menuname p{
+    font-size: 14px;
+    color: #676775;
+    text-align: center;
+    margin:0;
+}
+.menuname h4{
+    text-align: center;
+   letter-spacing: 1px;
+    font-size: 36px;
+    font-weight: 600;
+    color:#ce1212;
+}
+.dishes{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width:1140px;
+    gap:20px;
+    /* text-align: center; */
+    margin:0 auto;
+    padding-bottom: 80px;
+}
+.dish .dishName{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-align: center;
+}
+.dish .dishcontents{
+    color: #8d8d9b;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.dish .dishprice{
+    font-size: 24px;
+    font-weight: 700;
+    color:#ce1212;
+    text-align: center;
+}
+.dish img{
+    width:236px;
+    padding:0;
+}
+/* Testimonails */
+.testimonail{
+    background-color: #eeeeee;
+    padding:80px 0;
+
+}
+.testiheadings p{
+text-align: center;
+color:#8d8d9b;
+letter-spacing: 1px;
+}
+.testiheadings h3{
+    font-family: "Amatic SC";
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+.testiheadings h3 span{
+    color:#ce1212;
+} 
+
+.openioncontainer{
+    display: flex;
+    margin:0 auto;
+    width:700px;
+    justify-content: space-between;
+}
+.openioncontainer .openionimg img{
+    height:160px;
+    width:160px;
+    border-radius: 50%;
+    border:5px solid white;
+    padding:0;
+}
+.openionmain .openioncontainer .openion{
+    border-left:4px solid #ce1212;
+    padding-left: 30px;
+}
+.openionmain .openioncontainer .openion p i{
+    color:#ce3c3c;
+    font-size: 15px;
+}
+.openionmain .openioncontainer .openion i{
+    color:gold;
+}
+.changingcircles{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 14px;
+   
+}
+.changingcircles i{
+    color:#c4c4c4;
+    letter-spacing: 7px;
+}
+.changingcircles span i{
+    color:#ce1212;
+}
+
+/* EVENTS */
+.eventsmain{
+    padding:80px 0;
+
+}
+.eventsheadings p{
+text-align: center;
+color:#8d8d9b;
+letter-spacing: 1px;
+}
+.eventsheadings h3{
+    font-family: "Amatic SC";
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.eventsheadings h3 span{
+    color:#ce1212;
+ } 
+.eventcardimg {
+    display: flex;
+    gap:2px;
+    margin-bottom: 30px;
+}
+.eventimg1{
+    background-image: linear-gradient(to bottom, rgb(0 0 0 / 63%), rgb(0 0 0 / 72%)), url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/events-1.jpg);
+    height:550px;
+}
+.eventimg2{
+    background-image: linear-gradient(to bottom, rgb(0 0 0 / 63%), rgb(0 0 0 / 72%)), url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/events-2.jpg);
+    height:550px;
+}
+.eventimg3{
+    background-image: linear-gradient(to bottom, rgb(0 0 0 / 63%), rgb(0 0 0 / 72%)), url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/events-3.jpg);
+    height:550px;
+}
+.imgcontent{
+    color:white;
+    padding-top: 300px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+.imgcontent h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.imgcontent h4{
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-decoration: underline 3px solid #ce1212;
+
+}
+/* CHEFS */
+.chefsmain{
+    background-color: #eeeeee;
+    padding:80px 0;
+
+}
+.chefsheadings p{
+text-align: center;
+color:#8d8d9b;
+letter-spacing: 1px;
+}
+.chefsheadings h3{
+    font-family: "Amatic SC";
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+.chefsheadings h3 span{
+    color:#ce1212;
+} 
+
+.chefcards{
+    display:flex;
+   justify-content: center;
+   gap:20px;
+}
+.chefcard{
+    width:350px;
+    background-color:white;
+    text-align: center;
+    border-radius: 5px;
+}
+.chefcardimg img{
+    padding:0;
+    width:100%;
+    border-radius: 5px 5px 0 0;
+}
+.chefcardcontaint h3{
+    font-size: 25px;
+}
+.chefcardcontaint p{
+    color:#707070;
+}
+/* booking */
+.bookingmain{
+    padding:80px 0;
+}
+.bookingheading p{
+text-align: center;
+color:#8d8d9b;
+letter-spacing: 1px;
+}
+.bookingheading h3{
+    font-family: "Amatic SC";
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+.bookingheading h3 span{
+    color:#ce1212;
+} 
+/* booking form */
+
+.formandimg{
+    display:flex;
+    height:600px;
+    justify-content: center;
+}
+.formandimg img{
+    padding:0;
+    width:400px;
+}
+.form form{
+    padding:30px;
+    background-color: #eeeeee;
+    width:680px;
+    height: 450px;
+    padding-top: 50px;
+}
+.form input{
+    width:170px;
+    padding:10px;
+    margin: 10px;
+}
+.form textarea{
+    padding:10px;
+    margin: 10px;
+}
+.form button{
+color:white;
+background-color: #ce1212;
+padding:20px 60px;
+border-radius: 80px;
+font-size: 17px;
+border:none;
+display: flex;
+margin: 0 auto;
+}
+/* gallery */
+.sectionmain{
+    padding:80px 0;
+    background-color: #eeeeee;
+}
+.sectionheading p{
+text-align: center;
+color:#8d8d9b;
+letter-spacing: 1px;
+}
+.sectionheading h3{
+    font-family: "Amatic SC";
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+.sectionheading h3 span{
+    color:#ce1212;
+}
+.gallaryimgs{
+    display:flex;
+    justify-content: center;
+    gap:15px;
+    
+}
+.gallaryimgs img{
+    height:155px;
+    width:200px;
+    padding:0;
+}
+.gallaryimgs #centerimg{
+    padding:5px;
+    border:7px solid #ce1212;
+
+}
+/* contuct us */
+.contactmain{
+    background-color: white;
+}
+.ourlocation{
+   display:flex;
+   justify-content: center;
+}
+.ourlocation iframe{
+    width:1140px;
+}
+/* contactform */
+.contactform{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    justify-content: center;
+    padding:30px 0;
+}
+.contactform .contactSection{
+    display:flex;
+    background-color: #eeeeee;
+    gap:20px;
+    padding: 23px;
+    align-items: center;
+    width: 515px;
+}
+.contactSection .contactI i{
+    background-color:#ce1212;
+    color:white;
+    font-size: 26px;
+    padding: 18px;
+    border-radius: 50%;
+}
+.contactSectioninfo h4{
+    font-size: 20px;
+    color: #6c757d;
+    font-weight: 700;
+    margin: 0 0 5px 0;
+}
+.contactSectioninfo p{
+    padding: 0;
+    margin: 0;
+    line-height: 24px;
+    font-size: 14px;
+}
+/* contact us form main */
+.contactusformmain{
+ display: flex;
+ justify-content: center;
+}
+.contactusformmain form{
+    padding: 20px;
+    box-shadow: 1px 1px 30px rgb(223, 220, 220); 
+    width:1110px;
+}
+.contactusformmain form input{
+    padding:15px;
+    width: 44%;
+    margin: 10px;
+    font-size: 15px
+}
+.contactusformmain form #Subject{
+    width:93%;
+}
+.contactusformmain form textarea{
+    padding: 17px;
+    width: 93%;
+    margin: 10px;
+    font-size: 15px
+}
+.contactusformmain button{
+    color:white;
+    background-color: #ce1212;
+    padding: 12px 40px;
+    border-radius: 80px;
+    font-size: 17px;
+    border:none;
+    display: flex;
+    margin: 0 auto;
+}
+/* footer */
+.footermain{
+    display:flex;
+    background-color: #1f1f24;
+    justify-content: center;
+    color:white;
+    padding:50px 0;
+}
+.footercomponents{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.075);
+}
+.footersection{
+    display:flex;
+    gap:10px;   
+}
+.footerI i{
+    font-size: 24px;
+}
+.socialI i{
+   border:2px solid rgba(255, 255, 255, 0.651);
+   border-radius: 50%;
+   padding:10px; 
+}
+.copyright{
+    text-align:center;
+    background-color: #1f1f24;
+    color:white;
+    padding:20px 0;
+}
+.copyright p{
+padding:5px;
+margin:0;
+}
